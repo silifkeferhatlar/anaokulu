@@ -73,3 +73,26 @@ color:white;
 text-align:center;
 padding:30px;
 }
+.about{
+max-width:900px;
+margin:60px auto;
+background:#fff;
+padding:40px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.1);
+}
+
+.about h2{
+color:#7b2cbf;
+margin-bottom:15px;
+}
+
+.about p{
+font-size:18px;
+line-height:1.8;
+}
+
+.about ul{
+font-size:18px;
+line-height:2;
+}

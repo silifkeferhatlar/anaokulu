@@ -353,3 +353,32 @@ img{
     max-width:100%;
     height:auto;
 }
+@media(max-width:768px){
+
+.hero h1{
+font-size:32px;
+}
+
+.hero p{
+font-size:18px;
+}
+
+nav{
+flex-direction:column;
+}
+
+.cards{
+grid-template-columns:1fr;
+}
+
+.btn{
+display:block;
+margin:15px auto;
+width:220px;
+text-align:center;
+}
+
+.hero img{
+width:130px;
+height:130px;
+}

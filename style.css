@@ -256,3 +256,39 @@ font-size:30px;
 text-decoration:none;
 box-shadow:0 5px 15px rgba(0,0,0,.3);
 }
+.services{
+padding:70px 20px;
+background:#f8f8ff;
+text-align:center;
+}
+
+.services h2{
+font-size:38px;
+color:#6a1b9a;
+margin-bottom:40px;
+}
+
+.cards{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:25px;
+max-width:1200px;
+margin:auto;
+}
+
+.card{
+background:white;
+padding:30px;
+border-radius:20px;
+box-shadow:0 8px 20px rgba(0,0,0,.1);
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card h3{
+color:#7b1fa2;
+margin-bottom:15px;
+}

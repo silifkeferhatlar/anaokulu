@@ -205,3 +205,36 @@ background:white;
 padding:8px;
 margin-bottom:15px;
 }
+.navbar{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+background:white;
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+box-shadow:0 3px 10px rgba(0,0,0,.1);
+z-index:999;
+}
+
+.navbar ul{
+display:flex;
+gap:25px;
+list-style:none;
+margin:0;
+padding:0;
+}
+
+.navbar a{
+text-decoration:none;
+color:#6a1b9a;
+font-weight:bold;
+}
+
+.logo{
+font-size:22px;
+font-weight:bold;
+color:#6a1b9a;
+}

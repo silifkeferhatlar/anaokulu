@@ -32,22 +32,21 @@ margin-top:20px;
 font-size:22px;
 margin-bottom:30px;
 }
-
 .btn{
-display:inline-block;
-padding:15px 28px;
-margin:10px;
-background:#ff9800;
-color:white;
-text-decoration:none;
-border-radius:40px;
-font-weight:bold;
-transition:.3s;
+    display:inline-block;
+    padding:15px 35px;
+    margin:10px;
+    border-radius:40px;
+    background:#f6b100;
+    color:white;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
 }
 
 .btn:hover{
-background:#ff6f00;
-transform:scale(1.05);
+    transform:translateY(-4px);
+    background:#ff9800;
 }
 
 .container{

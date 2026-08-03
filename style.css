@@ -730,3 +730,94 @@ grid-template-columns:1fr;
 }
 
 }
+/*==========================
+PROGRAMS
+==========================*/
+
+.programs{
+
+    padding:120px 0;
+
+    background:#ffffff;
+
+}
+
+.program-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+    gap:35px;
+
+}
+
+.program-card{
+
+    background:white;
+
+    border-radius:25px;
+
+    padding:40px 35px;
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+    transition:.35s;
+
+    border:2px solid transparent;
+
+}
+
+.program-card:hover{
+
+    transform:translateY(-12px);
+
+    border-color:#4CAF50;
+
+}
+
+.program-icon{
+
+    width:75px;
+
+    height:75px;
+
+    background:#4CAF50;
+
+    border-radius:20px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    margin-bottom:25px;
+
+}
+
+.program-icon i{
+
+    color:white;
+
+    font-size:30px;
+
+}
+
+.program-card h3{
+
+    font-family:"Fredoka",sans-serif;
+
+    margin-bottom:15px;
+
+    font-size:24px;
+
+}
+
+.program-card p{
+
+    color:#6b7280;
+
+    line-height:1.8;
+
+}

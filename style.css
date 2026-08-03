@@ -613,3 +613,120 @@ STATISTICS
     opacity:.95;
 
 }
+/*==========================
+ABOUT
+==========================*/
+
+.about{
+
+    padding:120px 0;
+
+    background:#f8fafc;
+
+}
+
+.about-container{
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:70px;
+
+    align-items:center;
+
+}
+
+.about-image img{
+
+    width:100%;
+
+    border-radius:30px;
+
+    box-shadow:0 25px 60px rgba(0,0,0,.12);
+
+}
+
+.section-tag{
+
+    display:inline-block;
+
+    background:#E8F5E9;
+
+    color:#4CAF50;
+
+    padding:10px 20px;
+
+    border-radius:30px;
+
+    font-weight:600;
+
+    margin-bottom:20px;
+
+}
+
+.about-content h2{
+
+    font-family:"Fredoka";
+
+    font-size:clamp(2rem,4vw,3rem);
+
+    margin-bottom:25px;
+
+}
+
+.about-content p{
+
+    line-height:1.9;
+
+    color:#666;
+
+    margin-bottom:35px;
+
+}
+
+.about-list{
+
+    display:grid;
+
+    grid-template-columns:repeat(2,1fr);
+
+    gap:18px;
+
+    margin-bottom:35px;
+
+}
+
+.about-list div{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    font-weight:500;
+
+}
+
+.about-list i{
+
+    color:#4CAF50;
+
+}
+
+@media(max-width:900px){
+
+.about-container{
+
+grid-template-columns:1fr;
+
+}
+
+.about-list{
+
+grid-template-columns:1fr;
+
+}
+
+}

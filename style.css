@@ -1,1 +1,197 @@
+/* ===========================
+   TEMEL AYARLAR
+=========================== */
 
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+
+    font-family:"Poppins",sans-serif;
+
+    background:#f8fafc;
+
+    color:#1f2937;
+
+}
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+a{
+
+    text-decoration:none;
+
+}
+
+.container{
+
+    width:min(1200px,92%);
+
+    margin:auto;
+
+}
+
+
+/* ===========================
+ HEADER
+=========================== */
+
+.header{
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+
+    left:0;
+
+    z-index:999;
+
+    backdrop-filter:blur(12px);
+
+    background:rgba(255,255,255,.85);
+
+    border-bottom:1px solid rgba(0,0,0,.05);
+
+}
+
+.header .container{
+
+    height:80px;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:space-between;
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    font-family:"Fredoka",sans-serif;
+
+    font-size:1.3rem;
+
+    color:#2b2b2b;
+
+    font-weight:600;
+
+}
+
+.logo img{
+
+    width:52px;
+
+}
+
+.navbar{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+.navbar a{
+
+    color:#374151;
+
+    font-weight:500;
+
+    transition:.3s;
+
+}
+
+.navbar a:hover{
+
+    color:#4CAF50;
+
+}
+
+.btn-register{
+
+    background:#4CAF50;
+
+    color:#fff;
+
+    padding:14px 28px;
+
+    border-radius:50px;
+
+    transition:.3s;
+
+    font-weight:600;
+
+}
+
+.btn-register:hover{
+
+    transform:translateY(-3px);
+
+    box-shadow:0 10px 25px rgba(76,175,80,.3);
+
+}
+
+.menu-btn{
+
+    display:none;
+
+    font-size:28px;
+
+    cursor:pointer;
+
+}
+
+
+/* ===========================
+ MOBİL
+=========================== */
+
+@media(max-width:900px){
+
+.navbar{
+
+display:none;
+
+}
+
+.btn-register{
+
+display:none;
+
+}
+
+.menu-btn{
+
+display:block;
+
+}
+
+.logo span{
+
+display:none;
+
+}
+
+}

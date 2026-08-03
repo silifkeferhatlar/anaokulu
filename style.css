@@ -542,3 +542,74 @@ padding:120px 0 80px;
     line-height:1.7;
 
 }
+/*======================
+STATISTICS
+======================*/
+
+.stats{
+
+    padding:90px 0;
+
+    background:linear-gradient(135deg,#4CAF50,#43A047);
+
+}
+
+.stats .container{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+
+    gap:30px;
+
+}
+
+.stat-box{
+
+    background:rgba(255,255,255,.12);
+
+    backdrop-filter:blur(12px);
+
+    border-radius:25px;
+
+    padding:40px;
+
+    text-align:center;
+
+    color:white;
+
+    transition:.35s;
+
+}
+
+.stat-box:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.stat-box i{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+}
+
+.stat-box h2{
+
+    font-size:3rem;
+
+    font-family:"Fredoka",sans-serif;
+
+    margin-bottom:10px;
+
+}
+
+.stat-box p{
+
+    font-size:1rem;
+
+    opacity:.95;
+
+}

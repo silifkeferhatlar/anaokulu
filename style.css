@@ -191,6 +191,220 @@ display:block;
 .logo span{
 
 display:none;
+   /*==========================
+ HERO
+==========================*/
+
+.hero{
+
+    min-height:100vh;
+
+    position:relative;
+
+    display:flex;
+
+    align-items:center;
+
+    background:url("../assets/images/hero1.jpg") center center/cover no-repeat;
+
+    overflow:hidden;
+
+}
+
+.hero-overlay{
+
+    position:absolute;
+
+    inset:0;
+
+    background:linear-gradient(
+        rgba(0,0,0,.45),
+        rgba(0,0,0,.55)
+    );
+
+}
+
+.hero-content{
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.hero-text{
+
+    max-width:650px;
+
+    color:white;
+
+}
+
+.badge{
+
+    display:inline-block;
+
+    padding:10px 20px;
+
+    border-radius:30px;
+
+    background:rgba(255,255,255,.15);
+
+    backdrop-filter:blur(10px);
+
+    margin-bottom:25px;
+
+    font-weight:500;
+
+}
+
+.hero h1{
+
+    font-family:"Fredoka",sans-serif;
+
+    font-size:clamp(2.7rem,7vw,5rem);
+
+    line-height:1.1;
+
+    margin-bottom:25px;
+
+}
+
+.hero p{
+
+    font-size:1.15rem;
+
+    line-height:1.9;
+
+    max-width:600px;
+
+    margin-bottom:40px;
+
+}
+
+.hero-buttons{
+
+    display:flex;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+}
+
+.btn-primary{
+
+    background:#4CAF50;
+
+    color:white;
+
+    padding:18px 38px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:.35s;
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-5px);
+
+}
+
+.btn-secondary{
+
+    border:2px solid white;
+
+    color:white;
+
+    padding:18px 38px;
+
+    border-radius:50px;
+
+    transition:.35s;
+
+}
+
+.btn-secondary:hover{
+
+    background:white;
+
+    color:#222;
+
+}
+
+.scroll-down{
+
+    position:absolute;
+
+    bottom:30px;
+
+    left:50%;
+
+    transform:translateX(-50%);
+
+    color:white;
+
+    font-size:26px;
+
+    animation:bounce 2s infinite;
+
+    z-index:5;
+
+}
+
+@keyframes bounce{
+
+0%,20%,50%,80%,100%{
+
+transform:translate(-50%,0);
+
+}
+
+40%{
+
+transform:translate(-50%,-12px);
+
+}
+
+60%{
+
+transform:translate(-50%,-6px);
+
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+
+text-align:center;
+
+}
+
+.hero-buttons{
+
+justify-content:center;
+
+}
+
+.hero p{
+
+font-size:1rem;
+
+}
+
+.hero{
+
+padding:120px 0 80px;
+
+}
+
+}
 
 }
 
